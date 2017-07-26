@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Capitalism Mobile</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <item name="sss" type="menu">구매부</item>
+    
+<string-array name="retail">
+    <item >구매부 (계획비 : 5000(만))</item>
+    <item >판매부 (계획비 : 5000(만))</item>
+    <item >광고부 (계획비 : 500(만))</item>
+    <item >없음</item>
+</string-array>
+<string-array name="factory">
+    <item >구매부 (계획비 : 5000(만))</item>
+    <item >제조부 (계획비 : 1,0000(만))</item>
+    <item >판매부 (계획비 : 5000(만))</item>
+    <item >없음</item>
+</string-array>
+<string-array name="farm">
+    <item >사육부 (계획비 : 5000(만))</item>
+    <item >가공부 (계획비 : 5000(만))</item>
+    <item >판매부 (계획비 : 5000(만))</item>
+    <item >없음</item>
+</string-array>
+<string-array name="RnD">
+    <item >연구부 (계획비 : 1,5000(만))</item>
+    <item >없음</item>
+</string-array>
+<string-array name="material">
+    <item >밀</item>
+    <item >금</item>
+</string-array>
+<string-array name="product">
+    <item >빵</item>
+    <item >금반지</item>
+</string-array>
+<string name="purchase">구매부</string>
+<string name="sales">판매부</string>
+<string name="advertise">광고부</string>
+<string name="manufacture">제조부</string>
+<string name="laboratory">연구부</string>
+<string name="livestock">사육부</string>
+<string name="process">가공부</string>
+
+</resources>

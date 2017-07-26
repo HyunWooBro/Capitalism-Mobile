@@ -1,0 +1,8 @@
+7		이름			비트맵							크기	생필품지수	기본판매	기본가격	종류1	종류2
+i0		밀				commodity_wheat			1		-1					-1				100			0			-1
+i1		금				commodity_gold				10		-1					-1				35000		0			-1
+i2		밀가루		commodity_flour			1		-1					-1				300			1			-1
+i3		빵				commodity_bread			5		70					500			1000			2			0
+i4		금반지		commodity_goldring		20		20					10				110000		2			2
+i5		향수			commodity_perfume		10		10					10				70000		2			1
+i6		텔레비젼	commodity_television		100	30					10				1000000		2			3

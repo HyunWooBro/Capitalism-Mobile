@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="DEPARTMENT_0">
+        <item>329</item>
+        <item>10</item>
+        <item>416</item>
+        <item>97</item>
+    </integer-array>
+    
+    <integer-array name="DEPARTMENT_1">
+        <item>438</item>
+        <item>10</item>
+        <item>525</item>
+        <item>97</item>
+    </integer-array>
+    
+    <integer-array name="DEPARTMENT_2">
+        <item >547</item>
+        <item >10</item>
+        <item >634</item>
+        <item >97</item>
+    </integer-array>
+    
+    <integer-array name="DEPARTMENT_3">
+        <item >329</item>
+        <item >119</item>
+        <item >416</item>
+        <item >206</item>
+    </integer-array>
+    
+    <integer-array name="DEPARTMENT_4">
+        <item >438</item>
+        <item >119</item>
+        <item >525</item>
+        <item >206</item>
+    </integer-array>
+    
+    <integer-array name="DEPARTMENT_5">
+        <item >547</item>
+        <item >119</item>
+        <item >634</item>
+        <item >206</item>
+    </integer-array>
+    
+    <integer-array name="DEPARTMENT_6">
+        <item >329</item>
+        <item >228</item>
+        <item >416</item>
+        <item >315</item>
+    </integer-array>
+    
+    <integer-array name="DEPARTMENT_7">
+        <item >438</item>
+        <item >228</item>
+        <item >525</item>
+        <item >315</item>
+    </integer-array>
+    
+    <integer-array name="DEPARTMENT_8">
+        <item >547</item>
+        <item >228</item>
+        <item >634</item>
+        <item >315</item>
+    </integer-array>
+    
+    <integer-array name="LINK_0">
+        <item >414</item>
+        <item >40</item>
+        <item >442</item>
+        <item >68</item>
+    </integer-array>
+    
+    <integer-array name="LINK_1">
+        <item >523</item>
+        <item >40</item>
+        <item >551</item>
+        <item >68</item>
+    </integer-array>
+    
+    <integer-array name="LINK_2">
+        <item >359</item>
+        <item >95</item>
+        <item >387</item>
+        <item >123</item>
+    </integer-array>
+    
+    <integer-array name="LINK_3">
+        <item >414</item>
+        <item >95</item>
+        <item >442</item>
+        <item >123</item>
+    </integer-array>
+    
+    <integer-array name="LINK_4">
+        <item >472</item>
+        <item >95</item>
+        <item >500</item>
+        <item >123</item>
+    </integer-array>
+    
+    <integer-array name="LINK_5">
+        <item >523</item>
+        <item >95</item>
+        <item >551</item>
+        <item >123</item>
+    </integer-array>
+    
+    <integer-array name="LINK_6">
+        <item >578</item>
+        <item >95</item>
+        <item >606</item>
+        <item >123</item>
+    </integer-array>
+    
+    <integer-array name="LINK_7">
+        <item >414</item>
+        <item >150</item>
+        <item >442</item>
+        <item >178</item>
+    </integer-array>
+    
+    <integer-array name="LINK_8">
+        <item >523</item>
+        <item >150</item>
+        <item >551</item>
+        <item >178</item>
+    </integer-array>
+    
+    <integer-array name="LINK_9">
+        <item >359</item>
+        <item >204</item>
+        <item >387</item>
+        <item >232</item>
+    </integer-array>
+    
+    <integer-array name="LINK_10">
+        <item >414</item>
+        <item >204</item>
+        <item >442</item>
+        <item >232</item>
+    </integer-array>
+    
+    <integer-array name="LINK_11">
+        <item >472</item>
+        <item >204</item>
+        <item >500</item>
+        <item >232</item>
+    </integer-array>
+    
+    <integer-array name="LINK_12">
+        <item >523</item>
+        <item >204</item>
+        <item >551</item>
+        <item >232</item>
+    </integer-array>
+    
+    <integer-array name="LINK_13">
+        <item >578</item>
+        <item >204</item>
+        <item >606</item>
+        <item >232</item>
+    </integer-array>
+
+    <integer-array name="LINK_14">
+        <item >414</item>
+        <item >258</item>
+        <item >442</item>
+        <item >286</item>
+    </integer-array>
+    
+    <integer-array name="LINK_15">
+        <item >523</item>
+        <item >258</item>
+        <item >551</item>
+        <item >286</item>
+    </integer-array>
+
+</resources>
