@@ -5,3 +5,4 @@ Development Enviornment
 
 * Platform : Android, Java
 * IDE : Eclipse
+* Languate : Korean
