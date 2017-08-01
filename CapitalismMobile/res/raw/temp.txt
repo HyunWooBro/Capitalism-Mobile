@@ -1,0 +1,15 @@
+cell_factory1_01 = 382 0 128 124
+cell_factory1_02 = 382 126 128 124
+cell_factory1_03 = 512 0 128 124
+cell_factory1_04 = 512 126 128 124
+menu_item_flash_n_01 = 0 0 189 65
+menu_item_flash_n_02 = 0 67 189 65
+menu_item_flash_n_03 = 0 134 189 65
+menu_item_flash_n_04 = 191 0 189 65
+menu_item_flash_n_05 = 191 67 189 65
+menu_item_flash_n_06 = 191 134 189 65
+menu_item_flash_n_07 = 0 201 189 65
+menu_item_flash_n_08 = 191 201 189 65
+scrollbar = 0 268 20 20
+scrollknob_horizontal = 22 268 20 20
+scrollknob_vertical = 44 268 20 20

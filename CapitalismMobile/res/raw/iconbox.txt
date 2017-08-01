@@ -1,0 +1,8 @@
+iconbox_construction_01 = 0 0 41 40
+iconbox_construction_02 = 43 0 41 40
+iconbox_construction_t_01 = 0 42 41 40
+iconbox_construction_t_02 = 0 84 41 40
+iconbox_red_exclamation_01 = 43 42 41 40
+iconbox_red_exclamation_02 = 43 84 41 40
+iconbox_red_exclamation_t_01 = 86 0 41 40
+iconbox_red_exclamation_t_02 = 86 42 41 40

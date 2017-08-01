@@ -1,0 +1,5 @@
+report_manufacture_guide = 0 0 50 45
+report_manufacture_input_connector1 = 52 0 27 200
+report_manufacture_input_connector2 = 81 0 27 200
+report_manufacture_input_connector3 = 110 0 27 200
+report_manufacture_output_connector = 0 47 27 8

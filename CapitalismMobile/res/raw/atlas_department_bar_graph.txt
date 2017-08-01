@@ -1,0 +1,7 @@
+department_brand_bar = 0 6 6 50
+department_demand_bar = 11 0 6 50
+department_price_bar = 19 0 6 50
+department_quality_bar = 27 0 6 50
+department_stock = 0 0 9 4
+department_supply_bar = 35 0 6 50
+department_utilization_bar = 43 0 6 50

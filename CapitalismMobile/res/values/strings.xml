@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Capitalism Mobile</string>
+    <string name="action_settings">Settings</string>
+	
+	<string name="label_menu_singleplay">싱글플레이</string>
+	<string name="label_menu_multiplay">멀티플레이</string>
+	<string name="label_menu_tutorial">튜토리얼</string>
+	<string name="label_menu_option">옵션</string>
+	<string name="label_menu_exit">나가기</string>
+	<string name="label_menu_return">돌아가기</string>
+	
+	<string name="label_department_purchase">구매부</string>
+	<string name="label_department_sales">판매부</string>
+	<string name="label_department_advertise">광고부</string>
+	<string name="label_department_manufacture">제조부</string>
+	<string name="label_department_laboratory">연구부</string>
+	<string name="label_department_livestock">사육부</string>
+	<string name="label_department_process">가공부</string>
+	<string name="label_department_empty">비우기</string>
+	
+	<string name="label_product_brand">브랜드</string>
+	<string name="label_product_quality">품질</string>
+	<string name="label_product_price">가격</string>
+	<string name="label_product_overall">총점</string>
+	
+	<string name="label_current_product">현재 제품</string>
+	<string name="label_city_average">도시 평균</string>
+	
+	<string name="label_department_level">부서 레벨</string>
+	<string name="label_department_num_employees">부서 사원수</string>
+	
+	<string name="label_department_utilization">활용</string>
+	<string name="label_department_stock">재고</string>
+	<string name="label_department_resource">원료</string>
+	
+	<string name="label_research_technology">기술 연구</string>
+	<string name="label_stop_technology">연구 중단</string>
+	<string name="label_clear">비우기</string>
+	<string name="label_connect">연결</string>
+	<string name="label_select">선택</string>
+	<string name="label_supplier">공급사</string>
+	<string name="label_clients">고객사</string>
+	<string name="label_suspend">중단</string>
+	<string name="label_resume">재개</string>
+	<string name="label_internal_sale">내부판매</string>
+	
+	<string name="label_department_tab">부서탭</string>
+	<string name="label_display_tab">진열탭</string>
+	
+	<string name="label_city_name">도시명</string>
+	<string name="label_city_population">인구</string>
+	<string name="label_city_economic_indicator">경제 지표</string>
+	<string name="label_city_spending_level">소비 레벨</string>
+	<string name="label_city_salary_level">봉급 레벨</string>
+	
+	<string name="label_city_demo_name">서울</string>
+	
+	<string name="label_city_ei_boom">호황</string>
+	<string name="label_city_ei_recovery">회복</string>
+	<string name="label_city_ei_normal">표준</string>
+	<string name="label_city_ei_recession">후퇴</string>
+	<string name="label_city_ei_depression">침체</string>
+	<string name="label_city_ei_panic">공황</string>
+	
+	<string name="label_building_types">건물 유형</string>
+	<string name="label_building_retail">소매점</string>
+	<string name="label_building_factory">공장</string>
+	<string name="label_building_farm">농장</string>
+	<string name="label_building_rnd">연구소</string>
+	<string name="label_building_port">항구</string>
+	
+	<string name="label_business_netprofit">사업체 순이익</string>
+	<string name="label_business_past_12months">지난 12개월간</string>
+	
+	<string name="label_corporation_netprofit">기업 순이익</string>
+	
+	<string name="label_cash">현금</string>
+	<string name="label_netprofit">순이익</string>
+	
+	<string name="label_build_cost">건설비</string>
+	<string name="label_landvalue">지가</string>
+	<string name="label_house_purchase">건물구입</string>
+	<string name="label_total_build_cost">총비용</string>
+	<string name='label_building_maintenance'>유지비</string>
+	
+	<string name='label_market_share'>시장 점유율</string>
+	<string name='label_total_purchase_price'>총 구입 가격</string>
+	<string name='label_sale_price'>판매 가격</string>
+	<string name='label_new_sale_price'>새로운 판매 가격</string>
+	
+	<string name="label_build">건설</string>
+	<string name="label_ok">예</string>
+	<string name="label_check">확인</string>
+	<string name="label_no">아니오</string>
+	<string name="label_cancel">취소</string>
+	<string name="label_return">돌아가기</string>
+	<string name="label_confirm">확정</string>
+	
+	<string name="label_corporation_report">기업 보고서</string>
+	<string name="label_employee_report">사원 보고서</string>
+	<string name="label_product_report">제품 보고서</string>
+	<string name="label_financial_report">재무 보고서</string>
+	<string name="label_person_report">인력 보고서</string>
+	<string name="label_goal_report">목표 보고서</string>
+	<string name="label_guide_report">가이드 보고서</string>
+	<string name="label_financial_dealings">금융 거래 보고서</string>
+	
+	
+	<!-- string에서는 뒷 공백이 무시된다. index = 19의 경우 처음부터 공백이기 때문에 -->
+	<!-- 길이는 사실상 0이지만 padding을 통해 일정한 공간을 점유한다. -->
+	
+	<string-array name="label_array_outline_white_15">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		
+		<item>,</item>				<!-- index = 10 -->
+		<item>.</item>				<!-- index = 11 -->
+		<item>$</item>				<!-- index = 12 -->
+		<item>%</item>			<!-- index = 13 -->
+		<item>(</item>				<!-- index = 14 -->
+		<item>)</item>				<!-- index = 15 -->
+		<item>k</item>				<!-- index = 16 -->
+		<item>m</item>			<!-- index = 17 -->
+		<item>/</item>				<!-- index = 18 -->
+		<item>:</item>				<!-- index = 19 -->
+		<item></item>				<!-- index = 20 -->
+		<item>년</item>			<!-- index = 21 -->
+		<item>월</item>			<!-- index = 22 -->
+		<item>일</item>			<!-- index = 23 -->
+	</string-array>
+	
+	<string-array name="label_array_outline_red_15">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		
+		<item>,</item>
+		<item>.</item>
+		<item>$</item>
+		<item>%</item>
+		<item>(</item>
+		<item>)</item>
+		<item>km</item>
+	</string-array>
+	
+	<string-array name="label_array_outline_green_15">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		
+		<item>,</item>
+		<item>.</item>
+		<item>$</item>
+		<item>%</item>
+		<item>(</item>
+		<item>)</item>
+		<item>km</item>
+	</string-array>
+	
+	<string-array name="label_array_outline_yellow_12">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		
+		<item>,</item>
+		<item>.</item>
+		<item>$</item>
+		<item>%</item>
+		<item>(</item>
+		<item>)</item>
+		<item>k</item>
+		<item>m</item>
+		<item>/</item>
+		<item>:</item>
+		<item></item>
+	</string-array>
+	
+	<string-array name="label_array_outline_white_12">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		
+		<item>,</item>				<!-- index = 10 -->
+		<item>.</item>				<!-- index = 11 -->
+		<item>$</item>				<!-- index = 12 -->
+		<item>%</item>			<!-- index = 13 -->
+		<item>(</item>				<!-- index = 14 -->
+		<item>)</item>				<!-- index = 15 -->
+		<item>k</item>				<!-- index = 16 -->
+		<item>m</item>			<!-- index = 17 -->
+		<item>/</item>				<!-- index = 18 -->
+		<item>:</item>				<!-- index = 19 -->
+		<item></item>				<!-- index = 20 -->
+		<item>></item>			<!-- index = 21 -->
+		<item>개</item>			<!-- index = 22 -->
+		<item>월</item>			<!-- index = 23 -->
+	</string-array>
+	
+	<string-array name="label_array_outline_white_10">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		
+		<item>,</item>				<!-- index = 10 -->
+		<item>.</item>				<!-- index = 11 -->
+		<item>$</item>				<!-- index = 12 -->
+		<item>%</item>			<!-- index = 13 -->
+		<item>(</item>				<!-- index = 14 -->
+		<item>)</item>				<!-- index = 15 -->
+		<item>k</item>				<!-- index = 16 -->
+		<item>m</item>			<!-- index = 17 -->
+		<item>/</item>				<!-- index = 18 -->
+		<item>:</item>				<!-- index = 19 -->
+		<item></item>				<!-- index = 20 -->
+	</string-array>
+	
+	<string-array name="label_array_black_15">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		
+		<item>,</item>				<!-- index = 10 -->
+		<item>.</item>				<!-- index = 11 -->
+		<item>$</item>				<!-- index = 12 -->
+		<item>%</item>			<!-- index = 13 -->
+		<item>(</item>				<!-- index = 14 -->
+		<item>)</item>				<!-- index = 15 -->
+		<item>k</item>				<!-- index = 16 -->
+		<item>m</item>			<!-- index = 17 -->
+		<item>/</item>				<!-- index = 18 -->
+		<item>:</item>				<!-- index = 19 -->
+		<item></item>				<!-- index = 20 -->
+	</string-array>
+	
+	<string-array name="label_array_red_15">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		
+		<item>,</item>				<!-- index = 10 -->
+		<item>.</item>				<!-- index = 11 -->
+		<item>$</item>				<!-- index = 12 -->
+		<item>%</item>			<!-- index = 13 -->
+		<item>(</item>				<!-- index = 14 -->
+		<item>)</item>				<!-- index = 15 -->
+		<item>k</item>				<!-- index = 16 -->
+		<item>m</item>			<!-- index = 17 -->
+		<item>/</item>				<!-- index = 18 -->
+		<item>:</item>				<!-- index = 19 -->
+		<item></item>				<!-- index = 20 -->
+	</string-array>
+
+</resources>

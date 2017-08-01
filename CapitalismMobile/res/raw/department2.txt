@@ -1,0 +1,10 @@
+7
+5
+클래스				명칭			이미지								설치비				색
+Purchase			구매부		department_purchase			50000000			green
+Sales				판매부		department_sales				50000000			yellow
+Advertise			광고부		department_advertise			5000000				red
+Manufacture		제조부		department_manufacture	100000000			blue
+Laboratory			연구부		department_laboratory		150000000			gray
+Livestock			사육부		department_livestock			50000000			cyan
+Process			가공부		department_process			50000000			magenta

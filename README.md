@@ -4,5 +4,5 @@ Android demo/test version of Capitalism2 (archive)
 Development Enviornment
 
 * Platform : Android, Java
-* IDE : Eclipse
+* IDE : Eclipse(Juno)
 * Language : Korean

@@ -1,0 +1,70 @@
+
+문제가 오래되었고 간단히 해결되지 않는 버그를 정리하는 곳
+
+< 해결할 것 >
+
+-	앱 시작시 Director의 onInputEvent의 226줄에서 널포인터 예외가 발생하는 문제
+
+
+
+< 해결한 것 >
+
+- 	시작후 맵의 모서리로 이동하면 왼쪽 끝 모서리가 만나는 점으로 계속 이동하여 결국 스크롤 할 수 없는 문제.
+	게임을 완전히 종료한 후에만 해결되며, 게임 중에 다시 시작해도 계속 발생한다. 처음 이 현상이 나타나지 않으면
+	게임을 다시 시작하지 않은 한 나타나지 않는 것으로 보인다. 즉, 처음 게임이 실행되면서 무언가가 잘못된 것 같다.
+	
+	=> S.init()의 문제였다.
+
+		sScreenWidth 	= screenWidth;
+		sScreenHeight 	= screenHeight;
+		mVirtualScreenWidth = virtualWidth; 
+		mVirtualScreenHeight = virtualHeight;
+
+		if(sScreenWidth > sScreenHeight)
+		{
+			mRatioX = (float)sScreenWidth/mVirtualScreenWidth;
+			mRatioY = (float)sScreenHeight/mVirtualScreenHeight;
+		}
+		else
+		{
+			mRatioX = (float)sScreenHeight/mVirtualScreenWidth;
+			mRatioY = (float)sScreenWidth/mVirtualScreenHeight;
+		}
+		
+	기기의 회전 설정에 따라 조건문의 위나 아래에 들어갈 수 있는데 문제는 sScreenWidth와 sScreenHeight는 그대로 
+	라는 점이다. 이 상태에서 sScreenWidth나 sScreenHeight를 참조하면서 문제가 발생했다. 
+	(2014-06-13)
+	
+- 	UI 스레드와 렌더링 스레드의 동기화가 안되어 몇몇 작업이 동기화가 되지 않는 것. (큰 문제는 아니긴 하지만..)
+	그래서 가끔식 버튼이 눌려지는 효과가 나타나지 않는 것.
+	
+	=> 렌더링 사이클이 돌기전에 메인 스레드가 종료될 수 있으므로 강제로 중요 이벤트를 각 렌더링 프레임에 분산했다.
+	터치이벤트의 일부 처리를 렌더링스레드에서 다음 그리고 그다음 프레임에서 나누어 렌더링되게 만들었기 때문이다.
+	따라서 버튼이 눌리는 장면과 다시 원상태로 복귀되는 장면이 최소 1프레임 이상을 보장하게 된다.
+	(2014-07-26)
+	
+	
+-	시작후 메뉴 애니메이션이 처음부터 진행이 안되고 중간 또는 끝부분부터 나오는 것
+
+-	GLThread가 시작된 후에 onSurfaceCreated와 GameView를 상속한 클래스에서 생성자와의
+	동기화 문제
+	
+	=> 이 두문제는 eventQueue(...)를 오버로딩한 것으로 해결했다.
+	(2014-07-26)
+	
+- 렌더링과 UI의 동기화를 위해 MotionEvent를 저장해서 사용할 때 잘 적용이 안되는 것
+
+	=> 안드로이드는 MotionEvent를 재사용한다. 따라서 직접 저장하지 말고 MotionEvent.obtain(...)을 사용해야 한다.
+	(2014-09-27) 
+
+- 순이익 그래프에서 가끔 선이 확 튀는 것
+
+	=> 최고값을 구할 때 lastNetProfit을 감안하지 않았기 때문이다.
+	(2016-01-10)
+	
+	
+- 버튼 연속 터치 문제
+
+	=> 건물을 건설할 때 팅기는 문제의 원인이기도 했다.
+	(2016-01-19)
+	

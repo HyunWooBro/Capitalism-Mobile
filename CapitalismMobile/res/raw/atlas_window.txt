@@ -1,0 +1,4 @@
+window_basic = 0 0 119 70
+window_close = 0 72 12 11
+window_maximize = 0 85 12 11
+window_minimize = 14 72 12 11

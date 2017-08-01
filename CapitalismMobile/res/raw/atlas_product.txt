@@ -1,0 +1,12 @@
+commodity_bread = 0 0 123 121
+commodity_cannedcorn = 125 0 123 121
+commodity_cookie = 0 123 123 121
+commodity_corn = 125 123 123 121
+commodity_cornflakes = 250 0 123 121
+commodity_flour = 250 123 123 121
+commodity_gold = 375 0 123 121
+commodity_goldring = 375 123 123 121
+commodity_perfume = 0 246 123 121
+commodity_sugar = 0 369 123 121
+commodity_television = 125 246 123 121
+commodity_wheat = 125 369 123 121

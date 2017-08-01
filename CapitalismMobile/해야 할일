@@ -1,0 +1,33 @@
+
+< 할 것 >
+
+
+
+< 보류 >
+
+-	LibGDX에서 Table의 Value가 하는 역할(절대값, 상대값)
+
+-	Texture의 디버깅에서 정적으로 추가한 것(파싱 또는 Runnable을 이용)과 동적으로 추가한 것의 차이를 표시
+
+-	InputManager에 추가할 만한 것 : 가속도계, 방향계 (만약에 추가하면 AppConfig에서도 추가할 것인지 설정옵션 추가)
+
+< 완료 >
+
+-	렌더링과 UI의 동기화
+	queueEvent를 써야 되는 문제
+
+-	ninepatch
+
+-	제스처 등 인풋관련(libGDX처럼 동기화에서부터)
+
+-	스크롤 + 리스트
+
+-	Pool, SnapshotArray 등 유틸 클래스
+
+-	Label의 멀티라인 출력
+
+-	setCurrSizeAsPrefSize가 아니라 그냥 Widget에서 선호 사이즈를 직접 설정할 수 있게
+	(2016-02-05)
+	
+-	캐피탈리즘 랩 게임 구하기
+	(2016-02-18)

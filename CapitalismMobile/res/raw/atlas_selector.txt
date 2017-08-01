@@ -1,0 +1,6 @@
+threebythree_white_01 = 0 0 192 95
+threebythree_white_02 = 0 97 192 95
+threebythree_white_03 = 194 0 192 95
+twobytwo_white_01 = 194 97 128 63
+twobytwo_white_02 = 194 162 128 63
+twobytwo_white_03 = 324 97 128 63

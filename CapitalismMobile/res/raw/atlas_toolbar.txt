@@ -1,0 +1,9 @@
+ui_toolbar = 0 0 70 100
+ui_toolbar_c = 186 0 55 30
+ui_toolbar_construction = 129 52 55 36
+ui_toolbar_e = 186 32 55 30
+ui_toolbar_f = 129 90 55 30
+ui_toolbar_gauge = 129 0 55 50
+ui_toolbar_magnifier = 72 0 55 63
+ui_toolbar_option = 72 65 55 40
+ui_toolbar_p = 186 64 55 30

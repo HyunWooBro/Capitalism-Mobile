@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="jdbf"  default="dist" basedir=".">
+
+    <property name="version" value="1.1"/>
+
+  <path id="class.path.id">
+    <pathelement path="${dist}/jdbf-${version}.jar" />
+    <pathelement location="classes" />
+  </path>    
+    
+    <target name="init">
+        <mkdir dir="classes"/>
+        <mkdir dir="dist"/>
+        <mkdir dir="doc"/>
+    </target>
+    
+    <target name="clean">
+        <delete dir="classes"/>
+        <delete dir="doc"/>
+        <delete dir="dist"/>
+    </target>
+
+    <target name="build" depends="init">
+        <echo>build the jdbf classes</echo>
+        <javac destdir="classes" debug="on" encoding="UTF-8" source="1.5" target="1.5">
+            <src path="src"></src>
+        </javac>
+    </target>
+    
+    <target name="document">
+        <mkdir dir="doc/api"/>
+        <javadoc
+           destdir="doc/api"
+           author="true"
+           version="true"
+           use="true"
+           encoding="UTF-8"
+           windowtitle="jdbf API">
+
+            <packageset dir="src" defaultexcludes="yes">
+                <include name="com/hexiong/**"/>
+            </packageset>
+            <doctitle>
+                <![CDATA[<h1>JDBF API</h1>]]></doctitle>
+        </javadoc>        
+    </target>
+    
+    <target name="test">
+        <echo>build the jdbf classes</echo>
+        <javac destdir="classes" debug="on" encoding="UTF-8" source="1.5" target="1.5">
+            <src path="test"></src>
+        </javac>
+        
+        <echo>Test dbf reader</echo>
+        <java classname="com.hexiong.jdbf.test.Test"
+              fork="true"
+              failonerror="true"
+              maxmemory="128m"
+              >
+          <classpath refid="class.path.id"/>
+        </java>   
+        
+        <echo>Test dbf writer</echo>
+        <java classname="com.hexiong.jdbf.test.TestWrite"
+              fork="true"
+              failonerror="true"
+              maxmemory="128m"
+              >
+          <classpath refid="class.path.id"/>
+        </java>         
+    </target>
+    
+    <target name="dist" depends="build, document, test">
+        <jar destfile="dist/jdbf-${version}.jar"  basedir="classes" />
+        <jar destfile="dist/jdbf-doc-${version}.zip" basedir="doc" />
+    </target>
+    
+    <target name="ship">
+        <jar destfile="jdbf-${version}-all.zip" basedir="."/>
+    </target>
+
+</project>
+
+

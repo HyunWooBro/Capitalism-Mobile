@@ -1,0 +1,2 @@
+dropdownbox_background = 0 0 40 30
+dropdownbox_background_pressed = 0 32 40 30
